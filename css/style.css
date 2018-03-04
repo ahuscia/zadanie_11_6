@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Mina');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mina', sans-serif;
+    background: #E6E7E8;
+}
+
+h1 {
+    color: #E6E7E8;
+    padding: 10px;
+    text-align: right;
+    background: #BF2A2A;
+    width: 60%;
+    border-radius: 0 10px 10px 0;
+}
+
+h2 {
+    font-size: 30px;
+    color: #E6E7E8;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+    width: 100%;
+    min-height: 100px;
+}
+
+.column {
+    width: 30%;
+    float: left;
+    min-height: 500px;
+    padding: 10px;
+    background: #024959;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.create-column {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: #BF2A2A;
+    color: #E6E7E8;
+    border: none;
+}
+
+.create-column:hover {
+    background: #114358;
+    color: #E6E7E8;
+    border: none;
+}
+
+.btn-delete {
+    margin: 0 0 20px;
+    width: 25px;
+    height: 25px;
+    background: #E6E7E8;
+    color: #BF2A2A;
+    padding: 0;
+    border-radius: 5px;
+    border: none;
+}
+
+li .btn-delete {
+    margin: 0 0 20px;
+    width: 25px;
+    height: 25px;
+    background: #E6E7E8;
+    color: #BF2A2A;
+    padding: 0;
+    border-radius: 5px;
+    border: none;
+}
+
+li .btn-delete:hover,
+.btn-delete:hover {
+    background: #BF2A2A;
+    color: #E6E7E8;
+}
+
+.add-card {
+    height: 40px;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 10px;
+    background: #BF2A2A;
+    color: #E6E7E8;
+    border: none;
+    font-size: 15px;
+}
+
+.add-card:hover {
+    background: #E6E7E8;
+    color: #BF2A2A;
+}
+
+.card p {
+    text-align: left;
+    font-size: 15px;
+    background: #BF2A2A;
+    color: #E6E7E8;
+    border-radius: 10px;
+    padding: 5px;
+}
