@@ -17,9 +17,9 @@ $(function () {
 
         function createColumn() {
             var $column = $("<div>").addClass("column");
+            var $columnDelete = $("<button>").addClass("btn-delete").text("x");
             var $columnTitle = $("<h2>").addClass("column-title").text(self.name);
             var $columnCardList = $("<ul>").addClass("column-card-list");
-            var $columnDelete = $("<button>").addClass("btn-delete").text("x");
             var $columnAddCard = $("<button>").addClass("add-card").text("Add a Card");
 
 
@@ -99,7 +99,7 @@ $(function () {
         }).disableSelection();
     }
 
-    $("create-column")
+    $(".create-column")
         .click(function () {
             var name = prompt("Enter a column name");
             var column = new Column(name);
